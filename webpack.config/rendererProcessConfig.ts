@@ -31,6 +31,7 @@ const rendererProcessConfig: Configuration = {
       template: path.resolve(__dirname, '../src/renderer/index.html'),
     }),
   ],
+  devtool: 'eval-source-map'
 };
 
 export default rendererProcessConfig;
