@@ -8,7 +8,8 @@ electronDebug();
 app.on('ready', () => {
   const mainWindow = new BrowserWindow({
     webPreferences: {
-      // nodeIntegration: true,
+      // Allow to invoke node side packages
+      nodeIntegration: true,
     },
   });
   // const rendererUrl = 'file://' + __dirname + '/renderer/index.html';

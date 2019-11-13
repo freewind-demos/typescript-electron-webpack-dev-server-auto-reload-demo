@@ -25,6 +25,8 @@ webPreferences: {
 }
 ```
 
+`nodeIntegration`为`true`时，将会允许调用node相关的代码。
+
 否则，将会出现`Uncaught ReferenceError: require is not defined`
 
 
