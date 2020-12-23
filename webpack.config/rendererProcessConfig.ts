@@ -29,7 +29,7 @@ const rendererProcessConfig: Configuration = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '../src/renderer/index.html'),
-    }),
+    }) as any,
   ],
   devtool: 'eval-source-map'
 };

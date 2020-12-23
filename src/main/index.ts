@@ -13,7 +13,7 @@ app.on('ready', () => {
     },
   });
   // const rendererUrl = 'file://' + __dirname + '/renderer/index.html';
-  const rendererUrl = 'http://localhost:8080/index.html';
+  const rendererUrl = 'http://localhost:42352/index.html';
   console.log('rendererUrl', rendererUrl);
   mainWindow.loadURL(rendererUrl);
 });
